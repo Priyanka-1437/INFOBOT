@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot with Python</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='chatbot_style.css')}}">
+</head>
+<body>
+  <h2>INFOBOT</h2></br>
+  <div class="chat-container">
+  <div class="chat-header">Chat with InfoBot</div>
+  <div class="chat-messages" id="chatMessages">
+    <div class="message bot-message">Hello! This is INFOBOT, your virtual assistant. How can I help you?</div></br>
+    
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Type your question here..."/>
+    <button onclick="sendMessage()">Enter</button>
+  </div>
+</div>
+  <script>
+  const input = document.getElementById("userInput");
+
+  // Trigger sendMessage() when Enter is pressed
+  input.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault(); // Prevent default form submission or newline
+      sendMessage();
+    }
+  });
+
+  function sendMessage() {
+    const message = input.value.trim();
+    if (message === "") return;
+
+    // Display user message
+    const chatBox = document.getElementById("chatMessages");
+    const userMessage = document.createElement("div");
+    userMessage.className = "message user-message";
+    userMessage.innerText = message;
+    chatBox.appendChild(userMessage);
+
+    // Send to backend (replace with your API endpoint)
+    fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: message })
+    })
+      .then(res => res.json())
+      .then(data => {
+        const botMessage = document.createElement("div");
+        botMessage.className = "message bot-message";
+        botMessage.innerText = data.response;
+        chatBox.appendChild(botMessage);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      });
+
+    input.value = "";
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you today?", "Good morning! What can I do for you?", "Hey! Need any help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you! Have a great day!", "Stay Amazing!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks a lot", "Thank you", "I appreciate it"],
+      "responses": ["You're welcome!", "No problem at all!", "Anytime!"]
+    },
+    {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance"],
+        "responses": ["Sure! I'm here to help. What do you need?", "Of course, feel free to ask."]   
+    },
+    {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?"],
+        "responses": ["I'm an AI assistant, nice to meet you!", "I'm your virtual assistant."]
+    },
+    {
+      "tag": "bts",
+      "patterns": ["Tell me about BTS", "Who are BTS?", "What is BTS famous for?", "BTS members"],
+      "responses": [
+        "BTS, also known as Bangtan Boys, is a South Korean boy band that debuted in 2013. They are known for their music, powerful performances, and global fanbase called ARMY.It is a K-pop group with seven members: RM, Jin, Suga, J-Hope, Jimin, V, and Jungkook."
+       ]
+    },
+     {
+      "tag": "coldplay",
+      "patterns": ["Tell me about Coldplay", "Who is Coldplay?", "Coldplay songs", "Coldplay band"],
+      "responses": [
+        "Coldplay is a British rock band formed in 1996. Their popular songs include 'Yellow', 'Fix You', and 'Viva La Vida'.Coldplay's music is known for its emotional depth and powerful melodies. Chris Martin is the lead vocalist."
+        
+      ]
+    },
+     {
+      "tag": "narendra_modi",
+      "patterns": ["Who is Narendra Modi?", "Tell me about Narendra Modi", "PM of India", "Modi ji"],
+      "responses": [
+        "Narendra Modi is the 14th Prime Minister of India, serving since 2014. He is a member of the Bharatiya Janata Party (BJP).He was the Chief Minister of Gujarat from 2001 to 2014 before becoming the Prime Minister."
+        
+      ]
+    },
+    {
+      "tag": "upsc",
+      "patterns": ["What is UPSC?", "UPSC exam details", "How to prepare for UPSC?", "UPSC syllabus"],
+      "responses": [
+        "UPSC stands for Union Public Service Commission. It conducts India's civil services examination.The UPSC exam includes three stages: Prelims, Mains, and Interview. It selects candidates for IAS, IPS, IFS, and other civil services."
+       
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["What is AI?", "Define Artificial Intelligence", "Use of AI", "Applications of AI"],
+      "responses": [
+        "AI or Artificial Intelligence is the simulation of human intelligence by machines. It includes learning, reasoning, and self-correction.Applications of AI include voice assistants, recommendation systems, self-driving cars, and more."
+        
+      ]
+    },
+     {
+      "tag": "python",
+      "patterns": ["Tell me about Python", "What is Python?", "Python programming language", "Is Python easy?"],
+      "responses": [
+        "Python is a high-level, interpreted programming language known for its simplicity and readability. Python is widely used in web development, data science, AI, machine learning, and automation."
+        
+      ]
+    },
+    {
+      "tag": "java",
+      "patterns": ["Tell me about Java", "What is Java?", "Java programming", "Uses of Java"],
+      "responses": [
+        "Java is a high-level, object-oriented programming language that is platform-independent thanks to the Java Virtual Machine (JVM).Java is commonly used for building enterprise-scale applications, Android apps, and web services."
+        
+      ]
+    },
+    
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "I want to laugh", "Make me laugh", "Say something funny"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and it said 'Why? We never go anywhere!'",
+        "Why did the programmer quit his job? Because he didn’t get arrays."
+      ]
+    },
+    {
+      "tag": "infosys",
+      "patterns": ["Tell me about Infosys", "Infosys details", "Infosys company", "Infosys in India"],
+      "responses": [
+        "Infosys is a global IT services company headquartered in India. It offers business consulting, information technology, and outsourcing services.Founded in 1981, Infosys is one of the largest IT companies in India, known for innovation and digital services."
+        
+      ]
+    },
+    {
+      "tag": "wipro",
+      "patterns": ["Tell me about Wipro", "What is Wipro?", "Wipro company info", "Wipro details"],
+      "responses": [
+        "Wipro Limited is an Indian multinational corporation that provides IT, consulting and business process services. Wipro is known for its innovation-driven solutions in cloud, AI, analytics and cybersecurity."
+      ]
+        
+    },
+    {
+      "tag": "google",
+      "patterns": ["Tell me about Google", "What is Google?", "Google info", "Google company"],
+      "responses": [
+        "Google is a global tech giant best known for its search engine, but also offers services like Gmail, Android, and Google Cloud.",
+        "Founded in 1998, Google is now part of Alphabet Inc. and is one of the most influential tech companies in the world."
+      ]
+    },
+    {
+      "tag": "elon musk",
+      "patterns": ["Tell me about Elon Musk", "Who is Elon Musk?", "Elon Musk biography", "What is Elon Musk known for?"],
+      "responses": [
+        "Elon Musk is a billionaire entrepreneur, engineer, and inventor. He is the CEO of SpaceX and Tesla, and co-founder of companies like Neuralink, OpenAI, and X (formerly Twitter).",
+        "He is known for revolutionizing the electric vehicle industry with Tesla and advancing space exploration through SpaceX."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": ["Tell me about cricket", "What is cricket?", "Cricket rules", "Cricket teams"],
+      "responses": [
+        "Cricket is a bat-and-ball game played between two teams of eleven players. It is popular in countries like India, England, Australia, and Pakistan.",
+        "The main formats of cricket are Test matches, One Day Internationals (ODIs), and Twenty20 (T20)."
+      ]
+    },
+    {
+      "tag": "ipl",
+      "patterns": ["What is IPL?", "Tell me about IPL", "IPL teams", "IPL matches"],
+      "responses": [
+        "The Indian Premier League (IPL) is a professional T20 cricket league in India, featuring franchises like Mumbai Indians, CSK, and RCB.IPL is one of the most-watched cricket tournaments in the world and takes place annually during the summer."
+        
+      ]
+    },
+    {
+      "tag": "technical interview",
+      "patterns": ["Tell me some technical interview questions", "Interview questions for programming", "Tech interview help", "Examples of technical questions"],
+      "responses": [
+        "Some common technical interview questions include:\n1. What is the difference between a list and a tuple in Python?\n2. Explain OOP concepts.\n3. What is a deadlock in operating systems?\n4. How does a hash table work?",
+        "In interviews, expect questions on data structures, algorithms, databases, and programming languages like C++, Java, or Python."
+      ]
+    },
+    {
+      "tag": "machine learning",
+      "patterns": ["What is machine learning?", "Tell me about ML", "Uses of machine learning", "Machine learning applications"],
+      "responses": [
+        "Machine Learning is a branch of AI that allows systems to learn from data and improve without being explicitly programmed.",
+        "ML is used in recommendation systems, fraud detection, image recognition, and predictive analytics."
+      ]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": ["What is cybersecurity?", "Cybersecurity importance", "How to protect from cyber attacks?", "Cybersecurity measures"],
+      "responses": [
+        "Cybersecurity involves protecting computer systems and networks from digital attacks, data breaches, and unauthorized access.",
+        "Use strong passwords, two-factor authentication, and avoid clicking suspicious links to stay safe online."
+      ]
+    },
+    {
+      "tag": "space",
+      "patterns": ["Tell me about space", "What is in space?", "Space exploration", "Planets and galaxies"],
+      "responses": [
+        "Space is a vast expanse beyond Earth's atmosphere, containing stars, planets, galaxies, and other celestial objects.",
+        "Agencies like NASA, ISRO, and SpaceX explore space using satellites, telescopes, and spacecraft."
+      ]
+    },
+    {
+      "tag": "india",
+      "patterns": ["Tell me about India", "Facts about India", "Indian culture", "India details"],
+      "responses": [
+        "India is a country in South Asia, known for its rich cultural heritage, diversity, and history. It is the world's largest democracy.",
+        "India is famous for its festivals, cuisine, historical monuments like the Taj Mahal, and technological growth."
+      ]
+    },
+    {
+      "tag": "motivational quotes",
+      "patterns": ["Give me a motivational quote", "Say something inspiring", "Motivate me", "Motivational line"],
+      "responses": [
+        "Believe you can and you're halfway there. – Theodore Roosevelt",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston Churchill",
+        "Push yourself, because no one else is going to do it for you."
+      ]
+    },
+    {
+      "tag": "tech news",
+      "patterns": [
+        "What's the latest in tech?",
+        "Give me tech news",
+        "Tell me recent technology updates",
+        "What's new in technology?"
+      ],
+      "responses": [
+        "🔐 Meta paused its Android tracking tech after privacy concerns were raised by researchers.",
+        "🧠 Google's AI notetaking app, NotebookLM, now allows public sharing with audio summaries and FAQs.",
+        "📱 iOS 26 is launching soon, bringing major updates to Messages, CarPlay, and more.",
+        "💻 Amazon has a discount on the MacBook Pro M4 with a 1TB SSD—just $15 more than the 512GB version.",
+        "🚀 Meta signed a 20-year nuclear energy deal to power AI systems using cleaner energy from Constellation.",
+        "🎮 A new 'Free Roam' mode in Mario Kart World is trending, giving players more freedom to explore tracks.",
+        "🧩 The Witcher 4 tech demo using Unreal Engine 5.6 is out—featuring stunning graphics and ray tracing!"
+      ]
+    }    
+]
+  
+}
